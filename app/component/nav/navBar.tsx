@@ -26,7 +26,7 @@ const NavBar: FC<Props> = ({ className }) => {
     const paths: Paths = {
         Home: '/',
         Services: '/landingPage/service',
-        Blog: '/blog',
+        Blog: '/landingPage/blog',
         About: '/about',
         Contact: '/contact',
     };

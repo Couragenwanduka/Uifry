@@ -5,6 +5,9 @@ import Headertext from "@/app/component/text/Headertext";
 import Footer from "@/app/component/Footer/footer";
 import React, { useRef, useState }  from "react";
 import Treatment from "@/app/component/slides/Treatment";
+import { SpecialistDiv } from "@/app/component/div/SpecialistDiv";
+import PatientDiv  from "@/app/component/div/patientDiv";
+import DentalDiv from "@/app/component/div/DentalDiv";
 
 export default function Service() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -134,61 +137,17 @@ export default function Service() {
           </div>
      </section>
 
-    
+     <section>
+                <PatientDiv/>
+            </section>
 
-    
+            <section>
+                <SpecialistDiv/>
+            </section>
 
-     <section className="flex flex-col justify-center items-center w-full h-[150%] gap-2 bg-white">
-      <Headertext  className="break-words md:w-9/12 md:text-center mt-10 p-5 md:p-0" content="We’re welcoming new patients and can’t wait to meet you."/>
-      <BodyText   className="break-words md:w-6/12 md:text-center p-5 md:p-0 -mt-10 md:mt-0" content="We use only the best quality materials on the market in order to provide the best products to our patients."/>
-      <video
-        ref={videoRef}
-        src="/video/6529143-uhd_4096_2160_25fps.mp4"
-        className="video-embed w-full md:h-[32rem] h-[20rem] rounded-xl mb-20"
-        muted
-        loop
-        onMouseOver={handleMouseOver}
-        onMouseOut={handleMouseOut}
-      />
-     </section>
-
-     <section className="w-full md:h-[33rem] bg-lightBlue flex flex-col mt-20  justify-center items-center gap-5 pb-10">
-      <Headertext className="md:text-center" content="Meet our specialists"/>
-      <BodyText className="text-center " content="We use only the best quality materials on the market in order to provide the best products to our patients."/>
-      <div className=" md:flex-row gap-2 hidden md:flex">
-         <img src="/assets/Group 1000001016.svg"/>
-         <img src="/assets/Group 1000001017.svg"/>
-         <img src="/assets/Group 1000001018.svg"/>
-         <img src="/assets/Group 1000001019.svg"/>
-      </div>
-      <div className="md:hidden flex flex-col  items-center">
-          <img src="/assets/Group 1000001016.svg" className="w-full"/>
-          {isOpen && (
-              <div className="flex flex-col gap-4 mt-5">
-                <img src="/assets/Group 1000001017.svg"/>
-                <img src="/assets/Group 1000001018.svg"/>
-                <img src="/assets/Group 1000001019.svg"/>
-              </div>
-                    )}
-            <button className="bg-midBlue h-10 w-32 text-sm rounded-md text-white mt-5" onClick={handleToggleMenu}>View All Member</button>
-          </div>
-      {/* <img src="/assets/Frame 176.svg"/> */}
-
-     </section>
-
-     <section className="flex  justify-center items-center mt-10 md:mt-0 bg-white h-screen">
-          <div className="bg-darkBlue flex flex-col lg:flex-row lg:w-[80%] md:p-10 p-5 rounded-md">
-              <div>
-                  <Headertext className="text-white lg:w-9/12 text-4xl" content="Dental Website that's Gonna shake the game rules up."/>
-                  <BodyText className="mt-5 text-white lg:w-8/12" content="We use only the best quality materials on the market in order to provide the best products to our patients."/>
-                  <button className="mt-5 bg-midBlue w-28 h-10 rounded-md">Learn More</button>
-              </div>
-              <div className="md:w-[50%] mt-6 md:mt-0 ">
-                <img src="/assets/Rectangle 655.png" className="w-full h-full"/>
-                </div>
-          </div>
-     </section>
-
+            <section>
+                <DentalDiv/>
+            </section>     
      <section className="mb-10 mt-20">
         <Footer/>
      </section>
