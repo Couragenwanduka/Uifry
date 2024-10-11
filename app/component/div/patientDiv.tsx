@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import Headertext from '../text/Headertext';
 import BodyText from '../text/Bodytext';
 
-const patientDiv = () => {
+const PatientDiv = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   const handleMouseOver = () => {
@@ -35,4 +35,4 @@ const patientDiv = () => {
   );
 };
 
-export default patientDiv;
+export default PatientDiv;
