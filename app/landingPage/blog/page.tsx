@@ -1,6 +1,4 @@
 'use client';
-/* eslint-disable @typescript-eslint/no-unused-expressions */
-/* eslint-disable @next/next/no-img-element */
 import NavBar from '@/app/component/nav/navBar';
 import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
