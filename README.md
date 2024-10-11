@@ -46,7 +46,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/uifry.git
+   git clone https://github.com/Couragenwanduka/Uifry.git
    cd uifry
 
 
@@ -139,10 +139,13 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ```
 
+
 ### Instructions for Use
-1. **Replace Placeholders**: Update the placeholders (e.g., `your-username`, `uifry`) with your GitHub username and project name.
+1. **Replace Placeholders**: Update the placeholders (e.g., `your-username`) with your GitHub username.
 2. **Adjust Features and Technologies**: Tailor the features and technologies sections based on your actual project details.
 3. **Directory Structure**: Adjust the directory structure if your project layout is different.
 4. **Additional Sections**: Add any additional sections relevant to your application.
+
+Feel free to let me know if you need further modifications or additions!
 
 ```
