@@ -38,21 +38,21 @@ export default function Blog() {
           <BlogDiv
             image="/assets/Rectangle 652.png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <BlogDiv
             image="/assets/Rectangle 652 (2).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <BlogDiv
             image="/assets/Rectangle 652 (2).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
             className="md:hidden lg:block"
@@ -79,56 +79,56 @@ export default function Blog() {
           <ArticleDiv
             image="/assets/Rectangle 652 (3).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (4).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (3).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (4).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (6).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (5).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (6).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <ArticleDiv
             image="/assets/Rectangle 652 (5).png"
             text="Self Care"
-            author="~Anita Jackson"
+            author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
           />

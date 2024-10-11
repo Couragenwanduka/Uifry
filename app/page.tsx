@@ -108,7 +108,7 @@ export default function Home() {
           </span>
           <h1 className="text-darkBlue">Dental Implants</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
-            A dental implant is an artificial tooth root that’s placed into your
+            A dental implant is an artificial tooth root thats placed into your
             jaw to hold a prosthetic tooth or bridge.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
@@ -126,11 +126,11 @@ export default function Home() {
         <div>
           <Headertext
             className="break-words md:w-9/12 w-full  md:text-left text-pretty"
-            content="We’re welcoming new patients and can’t wait to meet you."
+            content="We re welcoming new patients and cant wait to meet you."
           />
           <BodyText
             className="break-words md:w-7/12 w-full mt-4  md:text-left text-pretty"
-            content="We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself."
+            content="We use only the best quality materials on the market in order to provide the best products to our patients, So dont worry about anything and book yourself."
           />
           <div className="flex items-center">
             <span className="flex mt-8 border border-midBlue w-72 h-12 p-2 items-center rounded-l-md gap-2 ml-2 md:ml-0">
