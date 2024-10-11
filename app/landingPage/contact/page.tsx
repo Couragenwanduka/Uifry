@@ -4,15 +4,18 @@ import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
 import Footer from '@/app/component/Footer/footer';
 import React from 'react';
-import MyMapWithCustomIcon from './map';
+import dynamic from 'next/dynamic';
 import ContactDiv from '@/app/component/div/contactDiv';
+
+// Dynamically import MyMapWithCustomIcon to prevent SSR issues
+const MyMapWithCustomIcon = dynamic(() => import('./map'), { ssr: false });
 
 export default function Contact() {
   return (
     <main className="font-sans w-full overflow-hidden h-full bg-white">
       <NavBar className="bg-lightBlue border-b md:border-none border-midBlue" />
 
-      {/* Home page content */}
+      {/* Header and introductory text */}
       <article className="flex flex-col md:justify-center md:items-center mt-40 md:mt-0 p-5 md:p-0">
         <Headertext
           className="md:text-center text-6xl font-bold"
@@ -21,7 +24,9 @@ export default function Contact() {
         <BodyText content="Book an Appointment to treat your teeth right now." />
       </article>
 
+      {/* Main content layout */}
       <section className="flex flex-col-reverse lg:flex-row w-full md:p-10 p-5 gap-3">
+        {/* Left section with map and contact details */}
         <section className="lg:w-[50%] flex flex-col gap-3">
           <div className="border-2 border-skyBlue rounded-md">
             <MyMapWithCustomIcon />
@@ -50,23 +55,25 @@ export default function Contact() {
             />
           </div>
         </section>
+
+        {/* Right section with the contact form */}
         <section className="border border-skyBlue lg:w-[50%] rounded-md ">
-          <form className="flex flex-col text-bodyText  w-full p-10 gap-4">
+          <form className="flex flex-col text-bodyText w-full p-10 gap-4">
             <section className="flex gap-2 ">
               <div className="flex flex-col text-xl w-[50%] gap-4">
-                <label>FirstName</label>
+                <label>First Name</label>
                 <input
                   type="text"
-                  placeholder="first Name"
-                  className=" border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
+                  placeholder="First Name"
+                  className="border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
                 />
               </div>
               <div className="flex flex-col text-xl w-[50%] gap-4">
-                <label>LastName</label>
+                <label>Last Name</label>
                 <input
                   type="text"
-                  placeholder="last Name"
-                  className=" border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
+                  placeholder="Last Name"
+                  className="border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
                 />
               </div>
             </section>
@@ -74,18 +81,18 @@ export default function Contact() {
             <input
               type="email"
               placeholder="Email"
-              className=" border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
+              className="border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
             />
             <label>Phone Number</label>
             <input
               type="text"
-              placeholder="phone Number +1 (555) 000-0000"
-              className=" border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
+              placeholder="Phone Number +1 (555) 000-0000"
+              className="border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
             />
             <label>Select Date</label>
             <input
               type="date"
-              className=" border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
+              className="border text-lg w-full h-14 p-3 rounded-md focus:outline-none"
             />
             <label>Message</label>
             <textarea
@@ -93,7 +100,7 @@ export default function Contact() {
               className="h-52 border p-5 resize-none"
             />
             <div className="flex justify-center items-center">
-              <button className="bg-midBlue w-40 h-10  rounded-md text-white">
+              <button type="submit" className="bg-midBlue w-40 h-10 rounded-md text-white">
                 Book Appointment
               </button>
             </div>
