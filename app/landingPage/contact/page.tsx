@@ -4,7 +4,7 @@ import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
 import Footer from '@/app/component/Footer/footer';
 import React from 'react';
-import MyMap from './map';
+import MyMapWithCustomIcon from './map';
 import ContactDiv from '@/app/component/div/contactDiv';
 
 export default function Contact() {
@@ -24,7 +24,7 @@ export default function Contact() {
       <section className="flex flex-col-reverse lg:flex-row w-full md:p-10 p-5 gap-3">
         <section className="lg:w-[50%] flex flex-col gap-3">
           <div className="border-2 border-skyBlue rounded-md">
-            <MyMap />
+            <MyMapWithCustomIcon />
           </div>
           <div className="flex flex-col gap-3">
             <ContactDiv
