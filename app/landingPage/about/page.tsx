@@ -6,7 +6,7 @@ import Footer from '@/app/component/Footer/footer';
 import React from 'react';
 // import { SpecialistDiv } from '@/app/component/div/SpecialistDiv';
 import PatientDiv from '@/app/component/div/patientDiv';
-import DentalDiv from '@/app/component/div/DentalDiv';
+// import DentalDiv from '@/app/component/div/DentalDiv';
 import AboutSpecialistDiv from '@/app/component/div/aboutSpecialistDiv';
 import Treatment from '@/app/component/slides/Treatment';
 
