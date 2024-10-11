@@ -30,7 +30,7 @@ const Treatment: React.FC = () => {
           </span>
           <h1 className="text-darkBlue font-semibold">Root Canal Treatment</h1>
           <p className="break-words w-11/12 text-bodyText">
-            Root canal treatment (endodontics) is a dental procedure used to
+            Root canal treatment endodontics is a dental procedure used to
             treat infection at the centre of a tooth.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
@@ -68,7 +68,7 @@ const Treatment: React.FC = () => {
           </span>
           <h1 className="text-darkBlue font-semibold">Dental Implants</h1>
           <p className="break-words w-10/12 text-bodyText">
-            A dental implant is an artificial tooth root that’s placed into your
+            A dental implant is an artificial tooth root thats placed into your
             jaw to hold a prosthetic tooth or bridge.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">

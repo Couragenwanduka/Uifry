@@ -1,7 +1,6 @@
 // import NavBar from '@/app/component/nav/navBar';
 import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
-// import Footer from '@/app/component/Footer/footer';
 import React, {  useState } from 'react';
 
 export const SpecialistDiv = () => {

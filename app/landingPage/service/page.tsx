@@ -33,7 +33,7 @@ export default function Service() {
           </span>
           <h1 className="text-darkBlue">Root Canal Treatment</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
-            Root canal treatment (endodontics) is a dental procedure used to
+            Root canal treatment endodontics is a dental procedure used to
             treat infection at the centre of a tooth.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
@@ -143,7 +143,7 @@ export default function Service() {
           />
           <BodyText
             className="break-words md:w-10/12 w-full mt-4  md:text-left text-pretty text-white"
-            content="We use only the best quality materials on the market in order to provide the best products to our patients, So don’t worry about anything and book yourself."
+            content="We use only the best quality materials on the market in order to provide the best products to our patients, So dont worry about anything and book yourself."
           />
           <div className="flex items-center">
             <button className="bg-midBlue h-12 w-40 gap-4 text-white text-lg rounded-md mt-8 flex justify-center items-center">
