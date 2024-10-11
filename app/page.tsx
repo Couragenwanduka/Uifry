@@ -3,29 +3,13 @@ import NavBar from './component/nav/navBar';
 import BodyText from './component/text/Bodytext';
 import Headertext from './component/text/Headertext';
 import Footer from './component/Footer/footer';
-import React, { useRef, useState } from 'react';
+import React  from 'react';
 import Treatment from './component/slides/Treatment';
-// import HappyClients from './component/slides/happycilents';
 import { SpecialistDiv } from '@/app/component/div/SpecialistDiv';
 import PatientDiv from '@/app/component/div/patientDiv';
 import DentalDiv from '@/app/component/div/DentalDiv';
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
-  const handleToggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-
-  const handleMouseOver = () => {
-    videoRef.current?.play();
-  };
-
-  const handleMouseOut = () => {
-    videoRef.current?.pause();
-  };
 
   return (
     <main className="font-sans w-full overflow-hidden h-full">

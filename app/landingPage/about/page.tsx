@@ -4,7 +4,7 @@ import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
 import Footer from '@/app/component/Footer/footer';
 import React from 'react';
-import { SpecialistDiv } from '@/app/component/div/SpecialistDiv';
+// import { SpecialistDiv } from '@/app/component/div/SpecialistDiv';
 import PatientDiv from '@/app/component/div/patientDiv';
 import DentalDiv from '@/app/component/div/DentalDiv';
 import AboutSpecialistDiv from '@/app/component/div/aboutSpecialistDiv';

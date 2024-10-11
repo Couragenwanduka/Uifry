@@ -1,5 +1,5 @@
 'use client';
-import React, { FC, useState } from 'react';
+import React, {  useState } from 'react';
 
 const Footer = () => {
   const [active, setActive] = useState<string | null>(null);
