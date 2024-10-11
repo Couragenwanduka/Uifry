@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's an updated version of the README for your **uifry** application, reflecting that the map component is located in the `content` folder:
 
-## Getting Started
+````markdown
+# uifry
 
-First, run the development server:
+**uifry** is a static site application built with Next.js. This application features multiple pages, including an About page, a Services page, a Contact page, and a Blog page. It offers a responsive design and an engaging user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Directory Structure](#directory-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Multi-page layout with:
+  - About page
+  - Services page
+  - Contact page
+  - Blog page
+- Responsive design for optimal viewing on various devices
+- Interactive map using Leaflet with routing functionality
+- Clean and modern UI components
+
+## Technologies Used
+
+- **Frontend**:
+  - [Next.js](https://nextjs.org/): A React framework for building server-rendered applications.
+  - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+  - [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript.
+  - [Leaflet](https://leafletjs.com/): A JavaScript library for interactive maps.
+  - [React-Leaflet](https://react-leaflet.js.org/): A React wrapper for Leaflet.
+  - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
+
+## Installation
+
+### Prerequisites
+
+- Node.js (version X.X.X or higher)
+- npm (Node package manager)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/uifry.git
+   cd uifry
+   ```
+````
+
+2. Install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
+
+## Usage
+
+- Navigate through the application using the top navigation menu to access the About, Services, Contact, and Blog pages.
+- The interactive map can be viewed on the designated page in the `content` folder, where users can input locations and get routing directions.
+
+## Customization
+
+You can customize various aspects of the application, including:
+
+1. **Page Content**: Modify the content in the respective page components located in the `pages` directory.
+
+2. **Map Settings**: Update the initial view and zoom level in the map component located in the `content` folder.
+
+3. **Markers**: Change marker icons and their positions in the map component.
+
+4. **Styling**: Adjust styles using Tailwind CSS classes as needed.
+
+## Directory Structure
+
+```plaintext
+uifry/
+├── public/
+│   ├── favicon.ico
+│   ├── marker-icon-2x.png
+│   └── images/
+├── src/
+│   ├── components/
+│   │   └── OtherComponent.tsx
+│   ├── content/
+│   │   └── MyMapWithDirections.tsx  # Map component
+│   ├── pages/
+│   │   ├── about.tsx
+│   │   ├── services.tsx
+│   │   ├── contact.tsx
+│   │   ├── blog.tsx
+│   │   └── index.tsx
+│   ├── styles/
+│   │   └── global.css
+│   └── utils/
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! To contribute:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Fork the repository.
+2. Create a new branch:
 
-## Learn More
+   ```bash
+   git checkout -b feature-branch
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Make your changes and commit them:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git commit -m 'Add new feature'
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Push to the branch:
 
-## Deploy on Vercel
+   ```bash
+   git push origin feature-branch
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Create a new Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+```
+
+### Instructions for Use
+1. **Replace Placeholders**: Update the placeholders (e.g., `your-username`, `uifry`) with your GitHub username and project name.
+2. **Adjust Features and Technologies**: Tailor the features and technologies sections based on your actual project details.
+3. **Directory Structure**: Adjust the directory structure if your project layout is different.
+4. **Additional Sections**: Add any additional sections relevant to your application.
+
+```

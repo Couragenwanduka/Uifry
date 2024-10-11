@@ -1,14 +1,14 @@
-"use client";
-import NavBar from "@/app/component/nav/navBar";
-import BodyText from "@/app/component/text/Bodytext";
-import Headertext from "@/app/component/text/Headertext";
-import Footer from "@/app/component/Footer/footer";
-import React from "react";
-import { BlogDiv } from "@/app/component/div/BlogDiv";
-import ArticleDiv from "@/app/component/div/ArticleDiv";
-import { SpecialistDiv } from "@/app/component/div/SpecialistDiv";
-import PatientDiv from "@/app/component/div/patientDiv";
-import DentalDiv from "@/app/component/div/DentalDiv";
+'use client';
+import NavBar from '@/app/component/nav/navBar';
+import BodyText from '@/app/component/text/Bodytext';
+import Headertext from '@/app/component/text/Headertext';
+import Footer from '@/app/component/Footer/footer';
+import React from 'react';
+import { BlogDiv } from '@/app/component/div/BlogDiv';
+import ArticleDiv from '@/app/component/div/ArticleDiv';
+import { SpecialistDiv } from '@/app/component/div/SpecialistDiv';
+import PatientDiv from '@/app/component/div/patientDiv';
+import DentalDiv from '@/app/component/div/DentalDiv';
 
 export default function Blog() {
   return (
@@ -55,22 +55,27 @@ export default function Blog() {
             author="~Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
+            className="md:hidden lg:block"
           />
         </div>
       </section>
 
       {/* Article section */}
       <section>
-        <div className="flex w-full justify-between p-10 mt-10">
+        <div className="flex w-full justify-between md:p-10 p-5 mt-10">
           <h1 className="text-darkBlue text-3xl font-sans font-semibold">
             Article
           </h1>
           <span className="flex w-32 h-10 gap-2 text-sm rounded-md border justify-center items-center text-darkBlue">
             Sort by: New
-            <img src="/icons/arrowHead.svg" className="w-5 h-5" alt="sort icon" />
+            <img
+              src="/icons/arrowHead.svg"
+              className="w-5 h-5"
+              alt="sort icon"
+            />
           </span>
         </div>
-        <div className="grid grid-cols-4 grid-flow-row gap-4 p-10">
+        <div className="md:grid  md:grid-cols-2 lg:grid-cols-4 grid-flow-row gap-4 md:p-10 p-5">
           <ArticleDiv
             image="/assets/Rectangle 652 (3).png"
             text="Self Care"
@@ -137,12 +142,12 @@ export default function Blog() {
       <section>
         <SpecialistDiv />
       </section>
-      <section>
+      <section className="md:mt-40 lg:mt-0">
         <DentalDiv />
       </section>
 
       {/* Footer */}
-      <section className="mb-10 mt-20">
+      <section className="mb-10 mt-20 md:mt-40">
         <Footer />
       </section>
     </main>
