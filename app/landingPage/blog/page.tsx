@@ -43,7 +43,7 @@ export default function Blog() {
             description="Lorem ipsum dolor sit amet consectetur."
           />
           <BlogDiv
-            image="/assets/Rectangle 652 (2).png"
+            image="/assets/Rectangle 652.png"
             text="Self Care"
             author="Anita Jackson"
             title="Care of your Teeth"
@@ -55,7 +55,6 @@ export default function Blog() {
             author="Anita Jackson"
             title="Care of your Teeth"
             description="Lorem ipsum dolor sit amet consectetur."
-            className="md:hidden lg:block"
           />
         </div>
       </section>
