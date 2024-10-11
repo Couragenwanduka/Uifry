@@ -87,7 +87,7 @@ const Treatment: React.FC = () => {
           </span>
           <h1 className="text-darkBlue font-semibold">Teeth Whitening</h1>
           <p className="break-words w-10/12 text-bodyText">
-            It's never been easier to brighten your smile at home. There are all
+            Its never been easier to brighten your smile at home. There are all
             kinds of products you can try.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
