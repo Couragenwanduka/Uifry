@@ -152,7 +152,7 @@ export default function About() {
           </span>
           <h1 className="text-darkBlue">Dental Implants</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
-            A dental implant is an artificial tooth root that’s placed into your
+            A dental implant is an artificial tooth root thats placed into your
             jaw to hold a prosthetic tooth or bridge.
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">

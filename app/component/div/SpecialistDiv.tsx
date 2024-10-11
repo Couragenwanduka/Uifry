@@ -2,7 +2,7 @@
 import BodyText from '@/app/component/text/Bodytext';
 import Headertext from '@/app/component/text/Headertext';
 // import Footer from '@/app/component/Footer/footer';
-import React, { useRef, useState } from 'react';
+import React, {  useState } from 'react';
 
 export const SpecialistDiv = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
