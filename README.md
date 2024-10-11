@@ -1,6 +1,3 @@
-Here's an updated version of the README for your **uifry** application, reflecting that the map component is located in the `content` folder:
-
-````markdown
 # uifry
 
 **uifry** is a static site application built with Next.js. This application features multiple pages, including an About page, a Services page, a Contact page, and a Blog page. It offers a responsive design and an engaging user experience.
@@ -51,8 +48,8 @@ Here's an updated version of the README for your **uifry** application, reflecti
    ```bash
    git clone https://github.com/your-username/uifry.git
    cd uifry
-   ```
-````
+
+
 
 2. Install the necessary dependencies:
 
