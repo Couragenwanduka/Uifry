@@ -7,7 +7,7 @@ interface Props {
 }
 
 const NavBar: FC<Props> = ({ className }) => {
-  const [active, setActive] = useState<string>('Home'); // Default active item
+  const [active, setActive] = useState<string>(''); // Default active item
   const [isOpen, setIsOpen] = useState<boolean>(false); // State for mobile menu
 
   const handleToggleMenu = () => {
