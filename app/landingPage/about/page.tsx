@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 {/* eslint-disable-next-line react/no-unescaped-entities */}
 'use client';
 import NavBar from '@/app/component/nav/navBar';
@@ -39,7 +41,7 @@ export default function About() {
             content="We work hard to stay up to date with the most advanced techniques and technologies to ensure that our patients receive the best care possible. Our office utilizes 3D CBCT radiographs to allow for guided surgical and endodontic protocols. This enables these procedures to performed digitally before they are performed surgically to ensure optimal results. 3D imaging also is utilized for the analysis of airway growth and development. We also use the best 3D optical scanner for all of our dental restoration and Invisalign impressions. Dr Williams is a strong advocate for using microsurgical techniques, this means less discomfort and faster healing times."
           />
         </article>
-        <img src="/assets/AboutPage.png" />
+        <img alt='' src="/assets/AboutPage.png" />
       </section>
 
       <section className="flex flex-col justify-center items-center mt-16">
@@ -88,7 +90,7 @@ export default function About() {
           content="Thanks to major technological advancements, dentistry allows treating the most complex cases with less time and more efficiency."
         />
         <section className="flex flex-col lg:flex-row w-full h-80 lg:p-5 gap-5 mt-10 md:mt-0">
-          <img src="/assets/technology.png" />
+          <img alt='' src="/assets/technology.png" />
           <div>
             <h1 className="text-darkBlue text-lg font-semibold">
               The Future of Dentistry is Digital:
@@ -115,7 +117,7 @@ export default function About() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/teeth 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/teeth 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Root Canal Treatment</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -124,7 +126,7 @@ export default function About() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -132,7 +134,7 @@ export default function About() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/smile 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/smile 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Cosmetic Dentist</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -141,7 +143,7 @@ export default function About() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -149,7 +151,7 @@ export default function About() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/implant 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Dental Implants</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -158,7 +160,7 @@ export default function About() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>

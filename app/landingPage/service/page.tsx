@@ -1,4 +1,6 @@
-{/* eslint-disable-next-line react/no-unescaped-entities */}
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+
 'use client';
 import NavBar from '@/app/component/nav/navBar';
 import BodyText from '@/app/component/text/Bodytext';
@@ -30,7 +32,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/teeth 1.svg" className="h-8 w-8" />
+            <img  src="/icons/teeth 1.svg" className="h-8 w-8" alt='' />
           </span>
           <h1 className="text-darkBlue">Root Canal Treatment</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -39,7 +41,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img  src="/icons/Group 1171274941.svg" alt=''/>
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -47,7 +49,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/smile 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/smile 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Cosmetic Dentist</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -56,7 +58,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -64,7 +66,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/implant 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Dental Implants</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -73,7 +75,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -84,7 +86,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/tooth 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/tooth 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Teeth Whitening</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -93,7 +95,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -101,7 +103,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/dental 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/dental 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Emergency Dentistry</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -110,7 +112,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -118,7 +120,7 @@ export default function Service() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/implant 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue">Prevention</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -127,7 +129,7 @@ export default function Service() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -148,7 +150,7 @@ export default function Service() {
           />
           <div className="flex items-center">
             <button className="bg-midBlue h-12 w-40 gap-4 text-white text-lg rounded-md mt-8 flex justify-center items-center">
-              learn More <img src="/icons/Group 1171274941.svg" />
+              learn More <img alt='' src="/icons/Group 1171274941.svg" />
             </button>
           </div>
         </div>

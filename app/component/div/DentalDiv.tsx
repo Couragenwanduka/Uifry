@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import Headertext from '../text/Headertext';
 import BodyText from '../text/Bodytext';
@@ -20,7 +21,7 @@ const DentalDiv = () => {
           </button>
         </div>
         <div className="lg:w-[50%] mt-6 md:mt-0 ">
-          <img src="/assets/Rectangle 655.png" className="w-full h-full" />
+          <img src="/assets/Rectangle 655.png" className="w-full h-full" alt='' />
         </div>
       </div>
     </section>

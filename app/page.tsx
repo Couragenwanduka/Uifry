@@ -1,4 +1,6 @@
-{/* eslint-disable-next-line react/no-unescaped-entities */}
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable @next/next/no-img-element */
+
 'use client';
 import NavBar from './component/nav/navBar';
 import BodyText from './component/text/Bodytext';
@@ -26,11 +28,12 @@ export default function Home() {
               <img
                 src="/icons/strek.svg"
                 className="w-9/12 flex items-end mt-2"
+                alt=''
               />
             </div>
             <p className="text-bodyText break-words text-sm md:w-10/12 mt-4">
               We use only the best quality materials on the market in order to
-              provide the best products to our patients, So don’t worry about
+              provide the best products to our patients, So dont worry about
               anything and book yourself.
             </p>
           </div>
@@ -53,15 +56,15 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-start items-start w-full md:-ml-10">
-            <img src="/icons/div.svg" className="" />
+            <img src="/icons/div.svg" className=""  alt=''/>
           </div>
         </article>
         <div className="hidden md:block">
-          <img src="/assets/nurse.png" className="h-[104%]" />
+          <img src="/assets/nurse.png" className="h-[104%]" alt=''/>
         </div>
         {/* mobile */}
         <div className="md:hidden flex justify-center items-center -ml-20">
-          <img src="/assets/nurse.png" className="h-[120%]" />
+          <img src="/assets/nurse.png" className="h-[120%]" alt='' />
         </div>
       </section>
 
@@ -71,7 +74,7 @@ export default function Home() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/teeth 1.svg" className="h-8 w-8" />
+            <img src="/icons/teeth 1.svg" className="h-8 w-8"  alt=''/>
           </span>
           <h1 className="text-darkBlue">Root Canal Treatment</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -80,7 +83,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img src="/icons/Group 1171274941.svg" alt='' />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -88,7 +91,7 @@ export default function Home() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/smile 1.svg" className="h-8 w-8" />
+            <img src="/icons/smile 1.svg" className="h-8 w-8" alt='' />
           </span>
           <h1 className="text-darkBlue">Cosmetic Dentist</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -97,7 +100,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img src="/icons/Group 1171274941.svg" alt='' />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -105,7 +108,7 @@ export default function Home() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img src="/icons/implant 1.svg" className="h-8 w-8"  alt=''/>
           </span>
           <h1 className="text-darkBlue">Dental Implants</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -114,7 +117,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img src="/icons/Group 1171274941.svg" alt='' />
           </span>
         </div>
       </section>
@@ -135,7 +138,7 @@ export default function Home() {
           />
           <div className="flex items-center">
             <span className="flex mt-8 border border-midBlue w-72 h-12 p-2 items-center rounded-l-md gap-2 ml-2 md:ml-0">
-              <img src="/icons/smallPhone.svg" className="w-6 h-6" />
+              <img src="/icons/smallPhone.svg" className="w-6 h-6" alt='' />
               <input
                 type="text"
                 placeholder="Enter your Phone Number"
@@ -148,16 +151,16 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden md:flex">
-          <img src="/assets/smillingBoy.png" className="h-full" />
+          <img src="/assets/smillingBoy.png" className="h-full" alt='' />
         </div>
         <div className="md:hidden mt-5">
-          <img src="/assets/smillingBoyMoblie.png" className="h-full" />
+          <img src="/assets/smillingBoyMoblie.png" className="h-full" alt='' />
         </div>
       </section>
 
       <section className="flex flex-col-reverse lg:flex-row justify-between lg:p-32 bg-lightBlue lg:w-[95%] w-full lg:ml-8 mt-6 md:mt-7 lg:mt-0 p-5">
         <div className="lg:w-[50%]">
-          <img src="/assets/Rectangle 631.png" className="h-full md:w-full" />
+          <img src="/assets/Rectangle 631.png" className="h-full md:w-full" alt='' />
         </div>
         <div className="lg:w-[60%] lg:ml-10">
           <Headertext
@@ -171,25 +174,25 @@ export default function Home() {
           <ul className="font-sans text-darkBlue mt-5 flex flex-col gap-4  ">
             <li className="flex gap-3">
               <span>
-                <img src="/icons/tick.svg" />
+                <img src="/icons/tick.svg" alt='' />
               </span>
               Top quality dental team
             </li>
             <li className="flex gap-3">
               <span>
-                <img src="/icons/tick.svg" />
+                <img src="/icons/tick.svg" alt='' />
               </span>
               State of the art dental services
             </li>
             <li className="flex gap-3">
               <span>
-                <img src="/icons/tick.svg" />
+                <img src="/icons/tick.svg" alt='' />
               </span>
               Discount on all dental treatment
             </li>
             <li className="flex gap-3">
               <span>
-                <img src="/icons/tick.svg" />
+                <img src="/icons/tick.svg" alt='' />
               </span>
               Enrollment is quick and easy
             </li>
@@ -218,10 +221,12 @@ export default function Home() {
           <img
             src="/icons/fixingTeeth.svg"
             className=" hidden lg:block w-full"
+            alt=''
           />
           <img
             src="/assets/Mask group.png"
             className="h-full lg:hidden md:w-full w-full mt-5"
+            alt=''
           />
         </div>
       </section>
@@ -238,9 +243,9 @@ export default function Home() {
         <Headertext content="Our Happy Clients" />
         <BodyText content="We use only the best quality materials on the market in order to provide the best products to our patients." />
         <div className=" hidden md:flex">
-          <img src="/assets/Group 349.png" className="size-96" />
-          <img src="/assets/Group 350.png" className="size-96" />
-          <img src="/assets/Group 351.png" className="size-96" />
+          <img src="/assets/Group 349.png" className="size-96" alt='' />
+          <img src="/assets/Group 350.png" className="size-96"  alt=''/>
+          <img src="/assets/Group 351.png" className="size-96"  alt=''/>
         </div>
         {/* <div className="md:hidden flex flex-row">
          <HappyClients/>

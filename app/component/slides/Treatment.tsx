@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // components/Slider.tsx
 'use client'; // Ensure this is marked as a client component in Next.js 13+
 import React from 'react';
@@ -26,7 +27,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
                 items-center rounded-full"
           >
-            <img src="/icons/teeth 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/teeth 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Root Canal Treatment</h1>
           <p className="break-words w-11/12 text-bodyText">
@@ -35,7 +36,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -45,7 +46,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
                 items-center rounded-full"
           >
-            <img src="/icons/smile 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/smile 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Cosmetic Dentist</h1>
           <p className="break-words w-10/12 text-bodyText">
@@ -54,7 +55,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -64,7 +65,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
                 items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/implant 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Dental Implants</h1>
           <p className="break-words w-10/12 text-bodyText">
@@ -73,7 +74,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -83,7 +84,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/tooth 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/tooth 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Teeth Whitening</h1>
           <p className="break-words w-10/12 text-bodyText">
@@ -92,7 +93,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -103,7 +104,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/dental 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/dental 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Emergency Dentistry</h1>
           <p className="break-words w-10/12 text-bodyText">
@@ -112,7 +113,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
@@ -122,7 +123,7 @@ const Treatment: React.FC = () => {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/implant 1.svg" className="h-8 w-8" />
+            <img alt='' src="/icons/implant 1.svg" className="h-8 w-8" />
           </span>
           <h1 className="text-darkBlue font-semibold">Prevention</h1>
           <p className="break-words w-10/12 text-bodyText">
@@ -131,7 +132,7 @@ const Treatment: React.FC = () => {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" />
+            <img alt='' src="/icons/Group 1171274941.svg" />
           </span>
         </div>
       </section>
