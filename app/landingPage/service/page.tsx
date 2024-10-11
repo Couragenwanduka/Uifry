@@ -11,7 +11,7 @@ import PatientDiv from '@/app/component/div/patientDiv';
 import DentalDiv from '@/app/component/div/DentalDiv';
 
 export default function Service() {
-  //
+  
   return (
     <main className="font-sans w-full overflow-hidden h-full bg-lightBlue">
       <NavBar className="bg-white border-b md:border-none border-midBlue" />
