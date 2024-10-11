@@ -1,5 +1,3 @@
-
-
 'use client';
 import NavBar from '@/app/component/nav/navBar';
 import BodyText from '@/app/component/text/Bodytext';
