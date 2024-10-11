@@ -29,6 +29,7 @@ export default function Home() {
                 src="/icons/strek.svg"
                 className="w-9/12 flex items-end mt-2"
                 alt=''
+                loading="lazy" 
               />
             </div>
             <p className="text-bodyText break-words text-sm md:w-10/12 mt-4">
@@ -83,7 +84,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" alt='' />
+            <img src="/icons/Group 1171274941.svg" alt=''  loading="lazy" />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -91,7 +92,7 @@ export default function Home() {
             className="bg-skyBlue w-12 h-12 flex justify-center
            items-center rounded-full"
           >
-            <img src="/icons/smile 1.svg" className="h-8 w-8" alt='' />
+            <img src="/icons/smile 1.svg" className="h-8 w-8" alt='' loading="lazy"  />
           </span>
           <h1 className="text-darkBlue">Cosmetic Dentist</h1>
           <p className="break-words lg:w-10/12 text-bodyText">
@@ -100,7 +101,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" alt='' />
+            <img src="/icons/Group 1171274941.svg" alt='' loading="lazy"  />
           </span>
         </div>
         <div className="bg-white flex flex-col justify-center items-center text-center lg:h-56 gap-2 pt-5 pb-5 rounded-md">
@@ -117,7 +118,7 @@ export default function Home() {
           </p>
           <span className="flex justify-center items-center gap-2 text-darkBlue">
             <p className="flex gap-2 border-b ">learn more </p>
-            <img src="/icons/Group 1171274941.svg" alt='' />
+            <img src="/icons/Group 1171274941.svg" alt='' loading="lazy"  />
           </span>
         </div>
       </section>

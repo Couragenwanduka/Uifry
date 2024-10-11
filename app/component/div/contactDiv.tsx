@@ -15,7 +15,7 @@ const ContactDiv: FC<Props> = ({ image, headerText, bodyText, close }) => {
         style={{ boxShadow: '0 4px 12px rgba(0, 0, 0, 0.2)' }}
         className="h-28 rounded-md flex items-center"
       >
-        <img src={image} alt="Section Image" className="md:w-40 w-20 " />
+        <img src={image} alt="Section Image" className="md:w-40 w-20 " loading="lazy"  />
         <div className="flex flex-col gap-1">
           <h1 className="md:text-3xl text-darkBlue font-bold">{headerText}</h1>
           <p className="md:text-lg text-sm text-pretty text-black text-opacity-50">

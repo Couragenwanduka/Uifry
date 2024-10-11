@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { FC } from 'react';
 
+
 interface Props {
   className?: string;
   image: string;
@@ -23,7 +24,7 @@ const ArticleDiv: FC<Props> = ({
       <section
         className={`${className} font-sans bg-lightBlue lg:w-[18rem] h-[28rem] flex flex-col justify-center  items-center rounded-md gap-4 mt-5 md:mt-0`}
       >
-        <img src={image} className=""  alt=''/>
+        <img src={image} className=""  alt='' loading="lazy" />
         <div className="flex gap-16  items-center">
           <button className="text-white bg-darkBlue w-24 h-10 rounded-md">
             {text}

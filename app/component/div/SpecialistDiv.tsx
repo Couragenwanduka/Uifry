@@ -21,18 +21,18 @@ export const SpecialistDiv = () => {
         content="We use only the best quality materials on the market in order to provide the best products to our patients."
       />
       <div className=" md:flex-row gap-2 hidden md:flex">
-        <img alt='' src="/assets/Group 1000001016.svg" />
-        <img alt='' src="/assets/Group 1000001017.svg" />
-        <img alt='' src="/assets/Group 1000001018.svg" />
-        <img alt='' src="/assets/Group 1000001019.svg" />
+        <img alt='' src="/assets/Group 1000001016.svg" loading="lazy"  />
+        <img alt='' src="/assets/Group 1000001017.svg" loading="lazy"  />
+        <img alt='' src="/assets/Group 1000001018.svg" loading="lazy"  />
+        <img alt='' src="/assets/Group 1000001019.svg" loading="lazy"  />
       </div>
       <div className="md:hidden flex flex-col  items-center">
         <img alt='' src="/assets/Group 1000001016.svg" className="w-full" />
         {isOpen && (
           <div className="flex flex-col gap-4 mt-5">
-            <img alt='' src="/assets/Group 1000001017.svg" />
-            <img alt='' src="/assets/Group 1000001018.svg" />
-            <img alt='' src="/assets/Group 1000001019.svg" />
+            <img alt='' src="/assets/Group 1000001017.svg" loading="lazy"  />
+            <img alt='' src="/assets/Group 1000001018.svg" loading="lazy"  />
+            <img alt='' src="/assets/Group 1000001019.svg" loading="lazy"  />
           </div>
         )}
         <button
