@@ -49,7 +49,7 @@ export default function About() {
             content="We use only the best quality materials on the market in order to provide the best products to our patients."
           />
         </article>
-        <section className=" flex flex-col justify-center items-center w-full md:pl-10 p-5 gap-5 mt-10">
+        <section className=" flex flex-col justify-center items-center w-full md:pl-10  p-5 gap-5 mt-10">
           <AboutSpecialistDiv
             image={'/assets/aboutSpecialist1.png'}
             name={'DR. Brent'}
